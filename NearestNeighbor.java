@@ -20,16 +20,16 @@ public class NearestNeighbor {
 		String training = scan.nextLine();
 		
 		while (!training.equals("iris-training-data.csv")) {
-			System.out.print("There is no file under that name, please enter training file again: ");
+			System.out.print("There is no file under that name, please enter the training file again: ");
 			training = scan.nextLine();
 		}
 		
 		// user enters the testing file until they call the correct file.
-		System.out.print("Name of the testing file: ");
+		System.out.print("\nName of the testing file: ");
 		String testing = scan.nextLine();
 		
 		while (!testing.equals("iris-testing-data.csv")) {
-			System.out.print("There is no file under that name, please enter testing file again: ");
+			System.out.print("There is no file under that name, please enter the testing file again: ");
 			testing = scan.nextLine();
 		}
 
